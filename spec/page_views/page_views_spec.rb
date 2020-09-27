@@ -21,7 +21,7 @@ RSpec.describe PageViews do
 
       it 'fails' do
         expect { described_class.perform(file_path) }.to raise_error(
-          PageViews::Error, 'File format not supported. supported formats are: [".log"].'
+          PageViews::Error, 'File format not supported. Supported formats are: [".log"].'
         )
       end
     end

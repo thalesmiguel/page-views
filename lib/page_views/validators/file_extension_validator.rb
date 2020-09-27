@@ -19,7 +19,7 @@ module PageViews
       def validate
         return if AVAILABLE_FILE_EXTENSIONS.include?(File.extname(file_path))
 
-        raise Error, "File format not supported. supported formats are: #{AVAILABLE_FILE_EXTENSIONS}."
+        raise Error, "File format not supported. Supported formats are: #{AVAILABLE_FILE_EXTENSIONS}."
       end
 
       attr_reader :file_path

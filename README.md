@@ -6,7 +6,7 @@ Parses and takes some metrics of a `.log` file of page names and visitor IPs.
 
 run `rake page_views:run` with a file path as the argument, like so:
 ```
-  rake page_views:run["path/to/my/file.log"]
+rake page_views:run["path/to/my/file.log"]
 ```
 For a sample file, please check [this sample file][sample_file].
 

@@ -8,8 +8,7 @@ namespace :page_views do
   task :run, [:file_path] do |_t, args|
     require 'page_views'
 
-    # PageViews.perform(args.file_path.to_s)
-    PageViews.perform('/Users/thales.miguel/Projects/SP Test - Ruby (1)/webserver.log')
+    PageViews.perform(args.file_path.to_s)
   end
 end
 

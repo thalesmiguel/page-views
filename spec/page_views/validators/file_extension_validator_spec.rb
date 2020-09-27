@@ -9,7 +9,7 @@ RSpec.describe PageViews::Validators::FileExtensionValidator do
 
       it 'raises an error' do
         expect { subject.call }.to raise_error(
-          PageViews::Error, 'File format not supported. supported formats are: [".log"].'
+          PageViews::Error, 'File format not supported. Supported formats are: [".log"].'
         )
       end
     end
