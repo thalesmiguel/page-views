@@ -2,7 +2,6 @@
 
 require 'bundler/setup'
 require 'page_views'
-require 'ruby_jard'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

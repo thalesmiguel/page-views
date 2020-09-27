@@ -7,8 +7,6 @@ require 'page_views/presenters'
 require 'page_views/services'
 require 'page_views/validators'
 
-require 'ruby_jard'
-
 # Main App class
 module PageViews
   # Default error class
