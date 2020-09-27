@@ -8,7 +8,7 @@ run `rake page_views:run` with a file path as the argument, like so:
 ```
   rake page_views:run["path/to/my/file.log"]
 ```
-For a sample file, check [this sample file][sample_file]
+For a sample file, please check [this sample file][sample_file].
 
 ## Development
 
@@ -16,7 +16,7 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 ## CHANGELOG
 
-[changes][changelog]
+[Changes][changelog]
 
 ## Contributing
 
