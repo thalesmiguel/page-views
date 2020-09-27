@@ -1,0 +1,6 @@
+AllCops:
+  NewCops: enable
+Metrics/BlockLength:
+  Exclude:
+    - 'page-views.gemspec'
+    - 'spec/**/*.rb'

@@ -10,3 +10,5 @@ gemspec
 gem 'reek', '~> 6.0'
 gem 'rspec', '~> 3.9'
 gem 'rubocop', '~> 0.92'
+
+gem 'ruby_jard', group: :development
